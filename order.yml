@@ -2,4 +2,4 @@ spring:
   application:
     name: order
 server:
-  port: 9002
+  port: 9003
