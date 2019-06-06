@@ -1,0 +1,12 @@
+zuul:
+  routes:
+    #自定义路由
+    product:
+      path: /**/**
+      serviceId: product
+    ##product: /**/**
+      sensitiveHeaders:
+    #排除路由
+  ignored-patterns:
+  ##  - /product/list
+    - /product/product/list
