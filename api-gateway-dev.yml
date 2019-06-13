@@ -2,6 +2,7 @@ zuul:
   host:
     connect-timeout-millis: 15000 #HTTP连接超时要比Hystrix的大
     socket-timeout-millis: 60000   #socket超时
+  sensitive-headers:  #忽略全部服务的敏感头，全部服务都可以传递Cookie
 ##  routes:
     #自定义路由
 ##    product:
